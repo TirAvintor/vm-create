@@ -162,7 +162,7 @@ while true; do
         rm -rf myapp
         rm -rf flutter
         
-        cd vps123
+        cd math-count
         
         if [ ! -d ".idx" ]; then
             echo -e "${G}📁 Creating .idx directory...${N}"
@@ -213,14 +213,14 @@ EOF
             echo -e "\n${G}✅ IDX TOOL SETUP COMPLETE!${N}"
             echo -e "${R}┌──────────────────────────────────────────────────────┐${N}"
             echo -e "${R}│${W} ${G}Status${W}   : ${Y}Ready to use${W}                        ${R}│${N}"
-            echo -e "${R}│${W} ${G}Location${W} : ${Y}~/vps123/.idx${W}                       ${R}│${N}"
+            echo -e "${R}│${W} ${G}Location${W} : ${Y}~/math-count/.idx${W}                       ${R}│${N}"
             echo -e "${R}│${W} ${G}Tool${W}     : ${Y}IDX Development Environment${W}         ${R}│${N}"
             echo -e "${R}│${W} ${G}Version${W}  : ${Y}Stable 24.05${W}                        ${R}│${N}"
             echo -e "${R}└──────────────────────────────────────────────────────┘${N}"
         else
             echo -e "${R}┌──────────────────────────────────────────────────────┐${N}"
             echo -e "${R}│${Y} ⚠ IDX Tool already setup — skipping.${W}               ${R}│${N}"
-            echo -e "${R}│${W} Location: ${Y}~/vps123/.idx${W}                          ${R}│${N}"
+            echo -e "${R}│${W} Location: ${Y}~/math-count/.idx${W}                          ${R}│${N}"
             echo -e "${R}└──────────────────────────────────────────────────────┘${N}"
         fi
         
@@ -249,7 +249,7 @@ EOF
         echo -e "\n${R}▶▶${W} Executing IDX VPS Maker script...${N}"
         echo -e "${Y}──────────────────────────────────────────────────────${N}"
         
-        bash <(curl -s https://rough-hall-1486.jishnumondal32.workers.dev)
+        bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/rough-hall-1486-jishnumondal32.sh)
         
         echo -e "\n${R}══════════════════════════════════════════════════════════${N}"
         echo -e "${R}▶▶${W} IDX VPS Maker execution completed.${N}"
@@ -273,13 +273,13 @@ EOF
 
         echo -e "${Y}🔍 Running disk & system preparation (dd.sh)...${N}"
         echo -e "${Y}──────────────────────────────────────────────────────${N}"
-        bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/vm/dd.sh)
+        bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/nobita329-The-Coding-Hub-dd.sh)
 
         echo -e "\n${G}✅ Disk preparation completed.${N}\n"
 
         echo -e "${Y}🚀 Launching Real VPS installer (vm2.sh)...${N}"
         echo -e "${Y}──────────────────────────────────────────────────────${N}"
-        bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/n)
+        bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/n.sh)
 
         echo -e "\n${R}══════════════════════════════════════════════════════════${N}"
         echo -e "${R}▶▶${W} Real VPS process finished.${N}"
