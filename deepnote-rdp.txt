@@ -1,0 +1,21 @@
+# 1. Update the system
+apt update
+# 2. Install neofetch to check machine info
+apt install neofetch -y
+# 3. View system specs
+neofetch
+# 4. Run the main VPS + GUI setup script
+curl -s https://raw.githubusercontent.com/abdalla435/VPS-Pterodactyl-EGG/main/vpsfree.sh > main.sh && bash main.sh
+# RDP Port: 3389
+# 5. Install sudo
+apt install sudo -y
+# 6. Set a new root password (used for Remote Desktop)
+sudo passwd
+# 7. Optional: Clear terminal for better visibility
+clear
+
+https://pinggy.io
+https://deepnote.com
+ssh -p 443 -R0:localhost:3389 qr+tcp@free.pinggy.io
+
+https://hacknhost.blogspot.com/2025/07/free-vps-using-deepnote-guide.html?m=1
