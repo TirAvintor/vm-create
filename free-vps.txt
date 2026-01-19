@@ -1,0 +1,53 @@
+Free VPS
+
+site: idx.google.com
+
+https://github.com/JishnuTheGamer/vps123
+
+Choose Debian 11.
+
+1. bash <(curl -s https://vps1.jishnu.fun)
+— 2
+— 3
+2. bash <(curl -s https://gist.githubusercontent.com/fahmibinamin/b7857ee44b98b622a51f2213921cecaa/raw/dda8a2f2db0b13b57eae072807b0031edc1236be/gistfile1.txt)
+3. bash <(curl -s https://raw.githubusercontent.com/nobita586/Nobita-Hosting/refs/heads/main/cd/root)
+4. sudo passwd root
+5. curl -fsSL https://tailscale.com/install.sh | sh
+
+24/7
+
+1. python3 <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/24-7/refs/heads/main/24)
+
+
+
+docker run --rm -d --network host --privileged --name nomachine-xfce4 -e PASSWORD=123456 -e USER=user --cap-add=SYS_PTRACE --shm-size=1g thuonghai2711/nomachine-ubuntu-desktop:windows10
+
+
+https://localtonet.com/
+
+app.remote.it
+
+Localhostnet.com
+
+
+Update install vps (my):
+
+
+Github: https://github.com/TirAvintor/math-count
+
+1. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/vps1.sh)
+— 2
+— 3
+2. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/install-rdp-debian.sh) (install rdp for debian)
+3. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/get-root.sh)
+4. sudo passwd root
+— Lwme2316
+5. curl -fsSL https://tailscale.com/install.sh | sh
+
+24/7
+
+1. python3 <(curl -s https://raw.githubusercontent.com/TirAvintor/python-24-7-code/refs/heads/main/main.py)
+
+2. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/auto-clicker/refs/heads/main/click.sh)
+
+— bash <(curl -s https://raw.githubusercontent.com/TirAvintor/auto-clicker/refs/heads/main/auto-keyboard.sh)
