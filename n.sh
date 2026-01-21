@@ -496,6 +496,7 @@ start_vm() {
             -device virtio-balloon-pci
             -object rng-random,filename=/dev/urandom,id=rng0
             -device virtio-rng-pci,rng=rng0
+            -no-hpet
             -rtc base=utc,clock=host
         )
 
