@@ -492,7 +492,7 @@ start_vm() {
         fi
 
         # Add performance enhancements for software emulation
-        screen -S $vm_name qemu_cmd+=(
+        qemu_cmd+=(
             -device virtio-balloon-pci
             -object rng-random,filename=/dev/urandom,id=rng0
             -device virtio-rng-pci,rng=rng0
