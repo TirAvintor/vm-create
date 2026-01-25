@@ -36,12 +36,9 @@ Update install vps (my):
 Github: https://github.com/TirAvintor/math-count
 
 1. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/vps1.sh)
-— 2
-— 3
 2. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/install-rdp-debian.sh) (install rdp for debian)
 3. bash <(curl -s https://raw.githubusercontent.com/TirAvintor/vm-create/refs/heads/main/get-root.sh)
 4. sudo passwd root
-— Lwme2316
 5. curl -fsSL https://tailscale.com/install.sh | sh
 
 24/7
